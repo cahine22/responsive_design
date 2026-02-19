@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "744407049852",
+    "project_id": "sye-project-1",
+    "storage_bucket": "sye-project-1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744407049852:android:812b8486f66bcda77c4bf9",
+        "android_client_info": {
+          "package_name": "com.example.responsive_design"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVM7CCtapOCjwMjeRH_RFLpyEKKRAW7cg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
