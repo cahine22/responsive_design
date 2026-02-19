@@ -25,7 +25,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
     super.dispose();
   }
 
-  // LAB 4 REQUIREMENT: Password Validator
   // Must be >= 8 chars, 1 uppercase, 1 lowercase, 1 digit, 1 symbol
   String? _validatePassword(String? value) {
     if (value == null || value.isEmpty) {
@@ -59,11 +58,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(content: Text('Account created! Please login.')),
         );
-        // LAB 4 REQUIREMENT: Go to login screen on success
         Navigator.pop(context); 
       }
     } catch (e) {
-      // LAB 4 REQUIREMENT: Handle existing accounts
+      // Handle existing accounts
       if (e.toString().contains('exists')) {
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
